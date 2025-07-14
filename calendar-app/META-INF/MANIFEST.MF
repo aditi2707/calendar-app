@@ -1,0 +1,18 @@
+Manifest-Version: 1.0
+Created-By: Maven JAR Plugin 3.2.2
+Build-Jdk-Spec: 23
+Class-Path: javalin-4.6.7.jar slf4j-api-1.7.36.jar jetty-server-9.4.48.v
+ 20220622.jar javax.servlet-api-3.1.0.jar jetty-http-9.4.48.v20220622.ja
+ r jetty-util-9.4.48.v20220622.jar jetty-io-9.4.48.v20220622.jar jetty-w
+ ebapp-9.4.48.v20220622.jar jetty-xml-9.4.48.v20220622.jar jetty-servlet
+ -9.4.48.v20220622.jar jetty-security-9.4.48.v20220622.jar jetty-util-aj
+ ax-9.4.48.v20220622.jar websocket-server-9.4.48.v20220622.jar websocket
+ -common-9.4.48.v20220622.jar websocket-api-9.4.48.v20220622.jar websock
+ et-client-9.4.48.v20220622.jar jetty-client-9.4.48.v20220622.jar websoc
+ ket-servlet-9.4.48.v20220622.jar kotlin-stdlib-jdk8-1.5.32.jar kotlin-s
+ tdlib-1.5.32.jar annotations-13.0.jar kotlin-stdlib-common-1.5.32.jar k
+ otlin-stdlib-jdk7-1.5.32.jar jackson-databind-2.13.5.jar jackson-annota
+ tions-2.13.5.jar jackson-core-2.13.5.jar logback-classic-1.2.11.jar log
+ back-core-1.2.11.jar
+Main-Class: com.calendar.CalendarApp
+

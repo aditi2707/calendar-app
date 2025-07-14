@@ -1,0 +1,1270 @@
+2025-07-14 09:00:37.389 [main] INFO  com.calendar.CalendarApp - Starting application...
+2025-07-14 09:00:37.395 [main] INFO  com.calendar.CalendarApp - Starting HTTP server on port 7000
+2025-07-14 09:00:37.578 [main] INFO  io.javalin.Javalin - 
+       __                      __ _            __ __
+      / /____ _ _   __ ____ _ / /(_)____      / // /
+ __  / // __ `/| | / // __ `// // // __ \    / // /_
+/ /_/ // /_/ / | |/ // /_/ // // // / / /   /__  __/
+\____/ \__,_/  |___/ \__,_//_//_//_/ /_/      /_/
+
+          https://javalin.io/documentation
+
+2025-07-14 09:00:37.589 [main] INFO  org.eclipse.jetty.util.log - Logging initialized @711ms to org.eclipse.jetty.util.log.Slf4jLog
+2025-07-14 09:00:37.590 [main] INFO  io.javalin.Javalin - Starting Javalin ...
+2025-07-14 09:00:37.618 [main] INFO  io.javalin.Javalin - You are running Javalin 4.6.7 (released October 24, 2022. Your Javalin version is 994 days old. Consider checking for a newer version.).
+2025-07-14 09:00:37.863 [main] ERROR io.javalin.Javalin - Failed to start Javalin
+2025-07-14 09:00:37.864 [main] INFO  io.javalin.Javalin - Stopping Javalin ...
+2025-07-14 09:00:37.870 [main] INFO  io.javalin.Javalin - Javalin has stopped
+2025-07-14 09:00:37.873 [main] ERROR com.calendar.CalendarApp - Error starting HTTP server. 
+io.javalin.core.util.JavalinBindException: Port already in use. Make sure no other process is using port 7000 and try again.
+	at io.javalin.Javalin.start(Javalin.java:184)
+	at io.javalin.Javalin.start(Javalin.java:148)
+	at com.calendar.CalendarApp.startRestServer(CalendarApp.java:38)
+	at com.calendar.CalendarApp.main(CalendarApp.java:30)
+Caused by: java.io.IOException: Failed to bind to 0.0.0.0/0.0.0.0:7000
+	at org.eclipse.jetty.server.ServerConnector.openAcceptChannel(ServerConnector.java:349)
+	at org.eclipse.jetty.server.ServerConnector.open(ServerConnector.java:310)
+	at org.eclipse.jetty.server.AbstractNetworkConnector.doStart(AbstractNetworkConnector.java:80)
+	at org.eclipse.jetty.server.ServerConnector.doStart(ServerConnector.java:234)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:73)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:401)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:73)
+	at io.javalin.jetty.JettyServer.start(JettyServer.kt:65)
+	at io.javalin.Javalin.start(Javalin.java:174)
+	... 3 common frames omitted
+Caused by: java.net.BindException: Address already in use
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:461)
+	at sun.nio.ch.Net.bind(Net.java:453)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:222)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:85)
+	at org.eclipse.jetty.server.ServerConnector.openAcceptChannel(ServerConnector.java:344)
+	... 11 common frames omitted
+2025-07-14 09:06:39.384 [main] INFO  com.calendar.CalendarApp - Starting application...
+2025-07-14 09:06:39.390 [main] INFO  com.calendar.CalendarApp - Starting HTTP server on port 8000
+2025-07-14 09:06:39.578 [main] INFO  io.javalin.Javalin - 
+       __                      __ _            __ __
+      / /____ _ _   __ ____ _ / /(_)____      / // /
+ __  / // __ `/| | / // __ `// // // __ \    / // /_
+/ /_/ // /_/ / | |/ // /_/ // // // / / /   /__  __/
+\____/ \__,_/  |___/ \__,_//_//_//_/ /_/      /_/
+
+          https://javalin.io/documentation
+
+2025-07-14 09:06:39.588 [main] INFO  org.eclipse.jetty.util.log - Logging initialized @660ms to org.eclipse.jetty.util.log.Slf4jLog
+2025-07-14 09:06:39.590 [main] INFO  io.javalin.Javalin - Starting Javalin ...
+2025-07-14 09:06:39.616 [main] INFO  io.javalin.Javalin - You are running Javalin 4.6.7 (released October 24, 2022. Your Javalin version is 994 days old. Consider checking for a newer version.).
+2025-07-14 09:06:39.860 [main] INFO  io.javalin.Javalin - Listening on http://localhost:8000/
+2025-07-14 09:06:39.860 [main] INFO  io.javalin.Javalin - Javalin started in 271ms \o/
+2025-07-14 09:08:08.555 [main] INFO  com.calendar.CalendarApp - Starting application...
+2025-07-14 09:08:08.561 [main] INFO  com.calendar.CalendarApp - Starting HTTP server on port 8080
+2025-07-14 09:08:08.741 [main] INFO  io.javalin.Javalin - 
+       __                      __ _            __ __
+      / /____ _ _   __ ____ _ / /(_)____      / // /
+ __  / // __ `/| | / // __ `// // // __ \    / // /_
+/ /_/ // /_/ / | |/ // /_/ // // // / / /   /__  __/
+\____/ \__,_/  |___/ \__,_//_//_//_/ /_/      /_/
+
+          https://javalin.io/documentation
+
+2025-07-14 09:08:08.751 [main] INFO  org.eclipse.jetty.util.log - Logging initialized @655ms to org.eclipse.jetty.util.log.Slf4jLog
+2025-07-14 09:08:08.752 [main] INFO  io.javalin.Javalin - Starting Javalin ...
+2025-07-14 09:08:08.779 [main] INFO  io.javalin.Javalin - You are running Javalin 4.6.7 (released October 24, 2022. Your Javalin version is 994 days old. Consider checking for a newer version.).
+2025-07-14 09:08:09.014 [main] INFO  io.javalin.Javalin - Listening on http://localhost:8080/
+2025-07-14 09:08:09.014 [main] INFO  io.javalin.Javalin - Javalin started in 262ms \o/
+2025-07-14 09:09:08.227 [main] DEBUG c.c.service.impl.CalendarServiceImpl - Attempting to add new event: Event{title='Crash', startEpochMillis=1762005600000, endEpochMillis=1762009200000}
+2025-07-14 09:09:08.229 [main] ERROR c.c.service.impl.CalendarServiceImpl - Failed to load existing events from storage
+java.lang.RuntimeException: Boom
+	at com.calendar.service.impl.CalendarServiceImpl.addEvent(CalendarServiceImpl.java:135)
+	at com.calendar.service.impl.CalendarServiceImplTest.lambda$testAddEventThrowsStorageException$1(CalendarServiceImplTest.java:51)
+	at org.junit.jupiter.api.AssertThrowsExactly.assertThrowsExactly(AssertThrowsExactly.java:53)
+	at org.junit.jupiter.api.AssertThrowsExactly.assertThrowsExactly(AssertThrowsExactly.java:35)
+	at org.junit.jupiter.api.Assertions.assertThrowsExactly(Assertions.java:3056)
+	at com.calendar.service.impl.CalendarServiceImplTest.testAddEventThrowsStorageException(CalendarServiceImplTest.java:51)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:728)
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:156)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:147)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:86)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(InterceptingExecutableInvoker.java:103)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.lambda$invoke$0(InterceptingExecutableInvoker.java:93)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:92)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:86)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:218)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:214)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:139)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:69)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:198)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:169)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:93)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:58)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:141)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:57)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:103)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:85)
+	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:47)
+	at org.apache.maven.surefire.junitplatform.LazyLauncher.execute(LazyLauncher.java:56)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.execute(JUnitPlatformProvider.java:184)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:148)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:122)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+2025-07-14 09:09:08.231 [main] DEBUG c.c.service.impl.CalendarServiceImpl - Attempting to add new event: Event{title='Overlap', startEpochMillis=1762007400000, endEpochMillis=1762011000000}
+2025-07-14 09:09:08.231 [main] INFO  c.c.service.impl.CalendarServiceImpl - Conflict detected [newEvent=Event{title='Overlap', startEpochMillis=1762007400000, endEpochMillis=1762011000000} existingEvent=Event{title='Call', startEpochMillis=1762005600000, endEpochMillis=1762009200000}]
+2025-07-14 09:09:08.232 [main] DEBUG c.c.service.impl.CalendarServiceImpl - Attempting to add new event: Event{title='Meeting', startEpochMillis=1762005600000, endEpochMillis=1762009200000}
+2025-07-14 09:09:08.233 [main] INFO  c.c.service.impl.CalendarServiceImpl - Successfully added event: Event{title='Meeting', startEpochMillis=1762005600000, endEpochMillis=1762009200000}
+2025-07-14 09:18:47.389 [main] DEBUG c.c.service.impl.CalendarServiceImpl - Attempting to add new event: Event{title='Crash', startEpochMillis=1762005600000, endEpochMillis=1762009200000}
+2025-07-14 09:18:47.391 [main] ERROR c.c.service.impl.CalendarServiceImpl - Failed to load existing events from storage
+java.lang.RuntimeException: Boom
+	at com.calendar.service.impl.CalendarServiceImpl.addEvent(CalendarServiceImpl.java:135)
+	at com.calendar.service.impl.CalendarServiceImplTest.lambda$testAddEventThrowsStorageException$1(CalendarServiceImplTest.java:51)
+	at org.junit.jupiter.api.AssertThrowsExactly.assertThrowsExactly(AssertThrowsExactly.java:53)
+	at org.junit.jupiter.api.AssertThrowsExactly.assertThrowsExactly(AssertThrowsExactly.java:35)
+	at org.junit.jupiter.api.Assertions.assertThrowsExactly(Assertions.java:3056)
+	at com.calendar.service.impl.CalendarServiceImplTest.testAddEventThrowsStorageException(CalendarServiceImplTest.java:51)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:728)
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:156)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:147)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:86)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(InterceptingExecutableInvoker.java:103)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.lambda$invoke$0(InterceptingExecutableInvoker.java:93)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:92)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:86)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:218)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:214)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:139)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:69)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:198)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:169)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:93)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:58)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:141)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:57)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:103)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:85)
+	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:47)
+	at org.apache.maven.surefire.junitplatform.LazyLauncher.execute(LazyLauncher.java:56)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.execute(JUnitPlatformProvider.java:184)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:148)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:122)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+2025-07-14 09:18:47.393 [main] DEBUG c.c.service.impl.CalendarServiceImpl - Attempting to add new event: Event{title='Overlap', startEpochMillis=1762007400000, endEpochMillis=1762011000000}
+2025-07-14 09:18:47.393 [main] INFO  c.c.service.impl.CalendarServiceImpl - Conflict detected [newEvent=Event{title='Overlap', startEpochMillis=1762007400000, endEpochMillis=1762011000000} existingEvent=Event{title='Call', startEpochMillis=1762005600000, endEpochMillis=1762009200000}]
+2025-07-14 09:18:47.395 [main] DEBUG c.c.service.impl.CalendarServiceImpl - Attempting to add new event: Event{title='Meeting', startEpochMillis=1762005600000, endEpochMillis=1762009200000}
+2025-07-14 09:18:47.396 [main] INFO  c.c.service.impl.CalendarServiceImpl - Successfully added event: Event{title='Meeting', startEpochMillis=1762005600000, endEpochMillis=1762009200000}
+2025-07-14 09:19:50.505 [main] DEBUG c.c.service.impl.CalendarServiceImpl - Attempting to add new event: Event{title='Crash', startEpochMillis=1762005600000, endEpochMillis=1762009200000}
+2025-07-14 09:19:50.507 [main] ERROR c.c.service.impl.CalendarServiceImpl - Failed to load existing events from storage
+java.lang.RuntimeException: Boom
+	at com.calendar.service.impl.CalendarServiceImpl.addEvent(CalendarServiceImpl.java:135)
+	at com.calendar.service.impl.CalendarServiceImplTest.lambda$testAddEventThrowsStorageException$1(CalendarServiceImplTest.java:51)
+	at org.junit.jupiter.api.AssertThrowsExactly.assertThrowsExactly(AssertThrowsExactly.java:53)
+	at org.junit.jupiter.api.AssertThrowsExactly.assertThrowsExactly(AssertThrowsExactly.java:35)
+	at org.junit.jupiter.api.Assertions.assertThrowsExactly(Assertions.java:3056)
+	at com.calendar.service.impl.CalendarServiceImplTest.testAddEventThrowsStorageException(CalendarServiceImplTest.java:51)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:728)
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:156)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:147)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:86)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(InterceptingExecutableInvoker.java:103)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.lambda$invoke$0(InterceptingExecutableInvoker.java:93)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:92)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:86)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:218)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:214)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:139)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:69)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:198)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:169)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:93)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:58)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:141)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:57)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:103)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:85)
+	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:47)
+	at org.apache.maven.surefire.junitplatform.LazyLauncher.execute(LazyLauncher.java:56)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.execute(JUnitPlatformProvider.java:184)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:148)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:122)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+2025-07-14 09:19:50.509 [main] DEBUG c.c.service.impl.CalendarServiceImpl - Attempting to add new event: Event{title='Overlap', startEpochMillis=1762007400000, endEpochMillis=1762011000000}
+2025-07-14 09:19:50.510 [main] INFO  c.c.service.impl.CalendarServiceImpl - Conflict detected [newEvent=Event{title='Overlap', startEpochMillis=1762007400000, endEpochMillis=1762011000000} existingEvent=Event{title='Call', startEpochMillis=1762005600000, endEpochMillis=1762009200000}]
+2025-07-14 09:19:50.511 [main] DEBUG c.c.service.impl.CalendarServiceImpl - Attempting to add new event: Event{title='Meeting', startEpochMillis=1762005600000, endEpochMillis=1762009200000}
+2025-07-14 09:19:50.512 [main] INFO  c.c.service.impl.CalendarServiceImpl - Successfully added event: Event{title='Meeting', startEpochMillis=1762005600000, endEpochMillis=1762009200000}
+2025-07-14 09:20:09.710 [main] DEBUG c.c.service.impl.CalendarServiceImpl - Attempting to add new event: Event{title='Crash', startEpochMillis=1762005600000, endEpochMillis=1762009200000}
+2025-07-14 09:20:09.712 [main] ERROR c.c.service.impl.CalendarServiceImpl - Failed to load existing events from storage
+java.lang.RuntimeException: Boom
+	at com.calendar.service.impl.CalendarServiceImpl.addEvent(CalendarServiceImpl.java:135)
+	at com.calendar.service.impl.CalendarServiceImplTest.lambda$testAddEventThrowsStorageException$1(CalendarServiceImplTest.java:51)
+	at org.junit.jupiter.api.AssertThrowsExactly.assertThrowsExactly(AssertThrowsExactly.java:53)
+	at org.junit.jupiter.api.AssertThrowsExactly.assertThrowsExactly(AssertThrowsExactly.java:35)
+	at org.junit.jupiter.api.Assertions.assertThrowsExactly(Assertions.java:3056)
+	at com.calendar.service.impl.CalendarServiceImplTest.testAddEventThrowsStorageException(CalendarServiceImplTest.java:51)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:728)
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:156)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:147)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:86)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(InterceptingExecutableInvoker.java:103)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.lambda$invoke$0(InterceptingExecutableInvoker.java:93)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:92)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:86)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:218)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:214)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:139)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:69)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:198)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:169)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:93)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:58)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:141)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:57)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:103)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:85)
+	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:47)
+	at org.apache.maven.surefire.junitplatform.LazyLauncher.execute(LazyLauncher.java:56)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.execute(JUnitPlatformProvider.java:184)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:148)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:122)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+2025-07-14 09:20:09.714 [main] DEBUG c.c.service.impl.CalendarServiceImpl - Attempting to add new event: Event{title='Overlap', startEpochMillis=1762007400000, endEpochMillis=1762011000000}
+2025-07-14 09:20:09.714 [main] INFO  c.c.service.impl.CalendarServiceImpl - Conflict detected [newEvent=Event{title='Overlap', startEpochMillis=1762007400000, endEpochMillis=1762011000000} existingEvent=Event{title='Call', startEpochMillis=1762005600000, endEpochMillis=1762009200000}]
+2025-07-14 09:20:09.715 [main] DEBUG c.c.service.impl.CalendarServiceImpl - Attempting to add new event: Event{title='Meeting', startEpochMillis=1762005600000, endEpochMillis=1762009200000}
+2025-07-14 09:20:09.716 [main] INFO  c.c.service.impl.CalendarServiceImpl - Successfully added event: Event{title='Meeting', startEpochMillis=1762005600000, endEpochMillis=1762009200000}
+2025-07-14 09:20:59.824 [main] DEBUG c.c.service.impl.CalendarServiceImpl - Attempting to add new event: Event{title='Crash', startEpochMillis=1762005600000, endEpochMillis=1762009200000}
+2025-07-14 09:20:59.826 [main] ERROR c.c.service.impl.CalendarServiceImpl - Failed to load existing events from storage
+java.lang.RuntimeException: Boom
+	at com.calendar.service.impl.CalendarServiceImpl.addEvent(CalendarServiceImpl.java:135)
+	at com.calendar.service.impl.CalendarServiceImplTest.lambda$testAddEventThrowsStorageException$1(CalendarServiceImplTest.java:51)
+	at org.junit.jupiter.api.AssertThrowsExactly.assertThrowsExactly(AssertThrowsExactly.java:53)
+	at org.junit.jupiter.api.AssertThrowsExactly.assertThrowsExactly(AssertThrowsExactly.java:35)
+	at org.junit.jupiter.api.Assertions.assertThrowsExactly(Assertions.java:3056)
+	at com.calendar.service.impl.CalendarServiceImplTest.testAddEventThrowsStorageException(CalendarServiceImplTest.java:51)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:728)
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:156)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:147)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:86)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(InterceptingExecutableInvoker.java:103)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.lambda$invoke$0(InterceptingExecutableInvoker.java:93)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:92)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:86)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:218)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:214)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:139)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:69)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:198)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:169)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:93)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:58)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:141)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:57)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:103)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:85)
+	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:47)
+	at org.apache.maven.surefire.junitplatform.LazyLauncher.execute(LazyLauncher.java:56)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.execute(JUnitPlatformProvider.java:184)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:148)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:122)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+2025-07-14 09:20:59.828 [main] DEBUG c.c.service.impl.CalendarServiceImpl - Attempting to add new event: Event{title='Overlap', startEpochMillis=1762007400000, endEpochMillis=1762011000000}
+2025-07-14 09:20:59.828 [main] INFO  c.c.service.impl.CalendarServiceImpl - Conflict detected [newEvent=Event{title='Overlap', startEpochMillis=1762007400000, endEpochMillis=1762011000000} existingEvent=Event{title='Call', startEpochMillis=1762005600000, endEpochMillis=1762009200000}]
+2025-07-14 09:20:59.829 [main] DEBUG c.c.service.impl.CalendarServiceImpl - Attempting to add new event: Event{title='Meeting', startEpochMillis=1762005600000, endEpochMillis=1762009200000}
+2025-07-14 09:20:59.830 [main] INFO  c.c.service.impl.CalendarServiceImpl - Successfully added event: Event{title='Meeting', startEpochMillis=1762005600000, endEpochMillis=1762009200000}
+2025-07-14 09:21:44.559 [main] DEBUG c.c.service.impl.CalendarServiceImpl - Attempting to add new event: Event{title='Crash', startEpochMillis=1762005600000, endEpochMillis=1762009200000}
+2025-07-14 09:21:44.561 [main] ERROR c.c.service.impl.CalendarServiceImpl - Failed to load existing events from storage
+java.lang.RuntimeException: Boom
+	at com.calendar.service.impl.CalendarServiceImpl.addEvent(CalendarServiceImpl.java:135)
+	at com.calendar.service.impl.CalendarServiceImplTest.lambda$testAddEventThrowsStorageException$1(CalendarServiceImplTest.java:51)
+	at org.junit.jupiter.api.AssertThrowsExactly.assertThrowsExactly(AssertThrowsExactly.java:53)
+	at org.junit.jupiter.api.AssertThrowsExactly.assertThrowsExactly(AssertThrowsExactly.java:35)
+	at org.junit.jupiter.api.Assertions.assertThrowsExactly(Assertions.java:3056)
+	at com.calendar.service.impl.CalendarServiceImplTest.testAddEventThrowsStorageException(CalendarServiceImplTest.java:51)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:728)
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:156)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:147)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:86)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(InterceptingExecutableInvoker.java:103)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.lambda$invoke$0(InterceptingExecutableInvoker.java:93)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:92)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:86)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:218)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:214)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:139)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:69)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:198)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:169)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:93)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:58)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:141)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:57)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:103)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:85)
+	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:47)
+	at org.apache.maven.surefire.junitplatform.LazyLauncher.execute(LazyLauncher.java:56)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.execute(JUnitPlatformProvider.java:184)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:148)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:122)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+2025-07-14 09:21:44.563 [main] DEBUG c.c.service.impl.CalendarServiceImpl - Attempting to add new event: Event{title='Overlap', startEpochMillis=1762007400000, endEpochMillis=1762011000000}
+2025-07-14 09:21:44.563 [main] INFO  c.c.service.impl.CalendarServiceImpl - Conflict detected [newEvent=Event{title='Overlap', startEpochMillis=1762007400000, endEpochMillis=1762011000000} existingEvent=Event{title='Call', startEpochMillis=1762005600000, endEpochMillis=1762009200000}]
+2025-07-14 09:21:44.564 [main] DEBUG c.c.service.impl.CalendarServiceImpl - Attempting to add new event: Event{title='Meeting', startEpochMillis=1762005600000, endEpochMillis=1762009200000}
+2025-07-14 09:21:44.565 [main] INFO  c.c.service.impl.CalendarServiceImpl - Successfully added event: Event{title='Meeting', startEpochMillis=1762005600000, endEpochMillis=1762009200000}
+2025-07-14 09:23:07.141 [main] DEBUG c.c.service.impl.CalendarServiceImpl - Attempting to add new event: Event{title='Crash', startEpochMillis=1762005600000, endEpochMillis=1762009200000}
+2025-07-14 09:23:07.143 [main] ERROR c.c.service.impl.CalendarServiceImpl - Failed to load existing events from storage
+java.lang.RuntimeException: Boom
+	at com.calendar.service.impl.CalendarServiceImpl.addEvent(CalendarServiceImpl.java:135)
+	at com.calendar.service.impl.CalendarServiceImplTest.lambda$testAddEventThrowsStorageException$1(CalendarServiceImplTest.java:51)
+	at org.junit.jupiter.api.AssertThrowsExactly.assertThrowsExactly(AssertThrowsExactly.java:53)
+	at org.junit.jupiter.api.AssertThrowsExactly.assertThrowsExactly(AssertThrowsExactly.java:35)
+	at org.junit.jupiter.api.Assertions.assertThrowsExactly(Assertions.java:3056)
+	at com.calendar.service.impl.CalendarServiceImplTest.testAddEventThrowsStorageException(CalendarServiceImplTest.java:51)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:728)
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:156)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:147)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:86)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(InterceptingExecutableInvoker.java:103)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.lambda$invoke$0(InterceptingExecutableInvoker.java:93)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:92)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:86)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:218)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:214)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:139)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:69)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:198)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:169)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:93)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:58)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:141)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:57)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:103)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:85)
+	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:47)
+	at org.apache.maven.surefire.junitplatform.LazyLauncher.execute(LazyLauncher.java:56)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.execute(JUnitPlatformProvider.java:184)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:148)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:122)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+2025-07-14 09:23:07.145 [main] DEBUG c.c.service.impl.CalendarServiceImpl - Attempting to add new event: Event{title='Overlap', startEpochMillis=1762007400000, endEpochMillis=1762011000000}
+2025-07-14 09:23:07.145 [main] INFO  c.c.service.impl.CalendarServiceImpl - Conflict detected [newEvent=Event{title='Overlap', startEpochMillis=1762007400000, endEpochMillis=1762011000000} existingEvent=Event{title='Call', startEpochMillis=1762005600000, endEpochMillis=1762009200000}]
+2025-07-14 09:23:07.146 [main] DEBUG c.c.service.impl.CalendarServiceImpl - Attempting to add new event: Event{title='Meeting', startEpochMillis=1762005600000, endEpochMillis=1762009200000}
+2025-07-14 09:23:07.147 [main] INFO  c.c.service.impl.CalendarServiceImpl - Successfully added event: Event{title='Meeting', startEpochMillis=1762005600000, endEpochMillis=1762009200000}
+2025-07-14 09:42:50.040 [main] DEBUG c.c.service.impl.CalendarServiceImpl - Attempting to add new event: Event{title='Crash', startEpochMillis=1762005600000, endEpochMillis=1762009200000}
+2025-07-14 09:42:50.042 [main] ERROR c.c.service.impl.CalendarServiceImpl - Failed to load existing events from storage
+java.lang.RuntimeException: Boom
+	at com.calendar.service.impl.CalendarServiceImpl.addEvent(CalendarServiceImpl.java:135)
+	at com.calendar.service.impl.CalendarServiceImplTest.lambda$testAddEventThrowsStorageException$1(CalendarServiceImplTest.java:51)
+	at org.junit.jupiter.api.AssertThrowsExactly.assertThrowsExactly(AssertThrowsExactly.java:53)
+	at org.junit.jupiter.api.AssertThrowsExactly.assertThrowsExactly(AssertThrowsExactly.java:35)
+	at org.junit.jupiter.api.Assertions.assertThrowsExactly(Assertions.java:3056)
+	at com.calendar.service.impl.CalendarServiceImplTest.testAddEventThrowsStorageException(CalendarServiceImplTest.java:51)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:728)
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:156)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:147)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:86)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(InterceptingExecutableInvoker.java:103)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.lambda$invoke$0(InterceptingExecutableInvoker.java:93)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:92)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:86)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:218)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:214)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:139)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:69)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:198)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:169)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:93)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:58)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:141)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:57)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:103)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:85)
+	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:47)
+	at org.apache.maven.surefire.junitplatform.LazyLauncher.execute(LazyLauncher.java:56)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.execute(JUnitPlatformProvider.java:184)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:148)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:122)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+2025-07-14 09:42:50.044 [main] DEBUG c.c.service.impl.CalendarServiceImpl - Attempting to add new event: Event{title='Overlap', startEpochMillis=1762007400000, endEpochMillis=1762011000000}
+2025-07-14 09:42:50.044 [main] INFO  c.c.service.impl.CalendarServiceImpl - Conflict detected [newEvent=Event{title='Overlap', startEpochMillis=1762007400000, endEpochMillis=1762011000000} existingEvent=Event{title='Call', startEpochMillis=1762005600000, endEpochMillis=1762009200000}]
+2025-07-14 09:42:50.045 [main] DEBUG c.c.service.impl.CalendarServiceImpl - Attempting to add new event: Event{title='Meeting', startEpochMillis=1762005600000, endEpochMillis=1762009200000}
+2025-07-14 09:42:50.046 [main] INFO  c.c.service.impl.CalendarServiceImpl - Successfully added event: Event{title='Meeting', startEpochMillis=1762005600000, endEpochMillis=1762009200000}
+2025-07-14 09:46:28.131 [main] DEBUG c.c.service.impl.CalendarServiceImpl - Attempting to add new event: Event{title='Crash', startEpochMillis=1762005600000, endEpochMillis=1762009200000}
+2025-07-14 09:46:28.134 [main] ERROR c.c.service.impl.CalendarServiceImpl - Failed to load existing events from storage,,,
+java.lang.RuntimeException: Boom
+	at com.calendar.service.impl.CalendarServiceImpl.addEvent(CalendarServiceImpl.java:135)
+	at com.calendar.service.impl.CalendarServiceImplTest.lambda$testAddEventThrowsStorageException$1(CalendarServiceImplTest.java:51)
+	at org.junit.jupiter.api.AssertThrowsExactly.assertThrowsExactly(AssertThrowsExactly.java:53)
+	at org.junit.jupiter.api.AssertThrowsExactly.assertThrowsExactly(AssertThrowsExactly.java:35)
+	at org.junit.jupiter.api.Assertions.assertThrowsExactly(Assertions.java:3056)
+	at com.calendar.service.impl.CalendarServiceImplTest.testAddEventThrowsStorageException(CalendarServiceImplTest.java:51)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:728)
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:156)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:147)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:86)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(InterceptingExecutableInvoker.java:103)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.lambda$invoke$0(InterceptingExecutableInvoker.java:93)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:92)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:86)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:218)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:214)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:139)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:69)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:198)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:169)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:93)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:58)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:141)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:57)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:103)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:85)
+	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:47)
+	at org.apache.maven.surefire.junitplatform.LazyLauncher.execute(LazyLauncher.java:56)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.execute(JUnitPlatformProvider.java:184)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:148)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:122)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+2025-07-14 09:46:28.136 [main] DEBUG c.c.service.impl.CalendarServiceImpl - Attempting to add new event: Event{title='Overlap', startEpochMillis=1762007400000, endEpochMillis=1762011000000}
+2025-07-14 09:46:28.136 [main] INFO  c.c.service.impl.CalendarServiceImpl - Conflict detected [newEvent=Event{title='Overlap', startEpochMillis=1762007400000, endEpochMillis=1762011000000} existingEvent=Event{title='Call', startEpochMillis=1762005600000, endEpochMillis=1762009200000}]
+2025-07-14 09:46:28.137 [main] DEBUG c.c.service.impl.CalendarServiceImpl - Attempting to add new event: Event{title='Meeting', startEpochMillis=1762005600000, endEpochMillis=1762009200000}
+2025-07-14 09:46:28.138 [main] INFO  c.c.service.impl.CalendarServiceImpl - Successfully added event: Event{title='Meeting', startEpochMillis=1762005600000, endEpochMillis=1762009200000}
+2025-07-14 09:53:52.931 [main] DEBUG c.c.service.impl.CalendarServiceImpl - Attempting to add new event: Event{title='Overlap', startEpochMillis=1762007400000, endEpochMillis=1762011000000}
+2025-07-14 09:53:52.933 [main] INFO  c.c.service.impl.CalendarServiceImpl - Conflict detected [newEvent=Event{title='Overlap', startEpochMillis=1762007400000, endEpochMillis=1762011000000} existingEvent=Event{title='Call', startEpochMillis=1762005600000, endEpochMillis=1762009200000}]
+2025-07-14 09:53:52.934 [main] DEBUG c.c.service.impl.CalendarServiceImpl - Attempting to add new event: Event{title='Meeting', startEpochMillis=1762005600000, endEpochMillis=1762009200000}
+2025-07-14 09:53:52.935 [main] INFO  c.c.service.impl.CalendarServiceImpl - Successfully added event: Event{title='Meeting', startEpochMillis=1762005600000, endEpochMillis=1762009200000}
+2025-07-14 10:03:10.947 [main] DEBUG c.c.service.impl.CalendarServiceImpl - Attempting to add new event: Event{title='Overlap', startEpochMillis=1762007400000, endEpochMillis=1762011000000}
+2025-07-14 10:03:10.948 [main] INFO  c.c.service.impl.CalendarServiceImpl - Conflict detected [newEvent=Event{title='Overlap', startEpochMillis=1762007400000, endEpochMillis=1762011000000} existingEvent=Event{title='Call', startEpochMillis=1762005600000, endEpochMillis=1762009200000}]
+2025-07-14 10:03:10.949 [main] DEBUG c.c.service.impl.CalendarServiceImpl - Attempting to add new event: Event{title='Meeting', startEpochMillis=1762005600000, endEpochMillis=1762009200000}
+2025-07-14 10:03:10.950 [main] INFO  c.c.service.impl.CalendarServiceImpl - Successfully added event: Event{title='Meeting', startEpochMillis=1762005600000, endEpochMillis=1762009200000}
+2025-07-14 10:04:19.400 [main] DEBUG c.c.service.impl.CalendarServiceImpl - Attempting to add new event: Event{title='Overlap', startEpochMillis=1762007400000, endEpochMillis=1762011000000}
+2025-07-14 10:04:19.401 [main] INFO  c.c.service.impl.CalendarServiceImpl - Conflict detected [newEvent=Event{title='Overlap', startEpochMillis=1762007400000, endEpochMillis=1762011000000} existingEvent=Event{title='Call', startEpochMillis=1762005600000, endEpochMillis=1762009200000}]
+2025-07-14 10:04:19.402 [main] DEBUG c.c.service.impl.CalendarServiceImpl - Attempting to add new event: Event{title='Meeting', startEpochMillis=1762005600000, endEpochMillis=1762009200000}
+2025-07-14 10:04:19.403 [main] INFO  c.c.service.impl.CalendarServiceImpl - Successfully added event: Event{title='Meeting', startEpochMillis=1762005600000, endEpochMillis=1762009200000}
+2025-07-14 10:07:40.869 [main] INFO  com.calendar.CalendarApp - Starting application...
+2025-07-14 10:07:40.874 [main] INFO  com.calendar.CalendarApp - Starting HTTP server on port 8000
+2025-07-14 10:07:41.058 [main] INFO  io.javalin.Javalin - 
+       __                      __ _            __ __
+      / /____ _ _   __ ____ _ / /(_)____      / // /
+ __  / // __ `/| | / // __ `// // // __ \    / // /_
+/ /_/ // /_/ / | |/ // /_/ // // // / / /   /__  __/
+\____/ \__,_/  |___/ \__,_//_//_//_/ /_/      /_/
+
+          https://javalin.io/documentation
+
+2025-07-14 10:07:41.069 [main] INFO  org.eclipse.jetty.util.log - Logging initialized @661ms to org.eclipse.jetty.util.log.Slf4jLog
+2025-07-14 10:07:41.070 [main] INFO  io.javalin.Javalin - Starting Javalin ...
+2025-07-14 10:07:41.096 [main] INFO  io.javalin.Javalin - You are running Javalin 4.6.7 (released October 24, 2022. Your Javalin version is 994 days old. Consider checking for a newer version.).
+2025-07-14 10:07:41.338 [main] INFO  io.javalin.Javalin - Listening on http://localhost:8000/
+2025-07-14 10:07:41.338 [main] INFO  io.javalin.Javalin - Javalin started in 269ms \o/
+2025-07-14 10:14:09.901 [main] DEBUG c.c.service.impl.CalendarServiceImpl - Attempting to add new event: Event{title='Overlap', startEpochMillis=1762007400000, endEpochMillis=1762011000000}
+2025-07-14 10:14:09.903 [main] INFO  c.c.service.impl.CalendarServiceImpl - Conflict detected [newEvent=Event{title='Overlap', startEpochMillis=1762007400000, endEpochMillis=1762011000000} existingEvent=Event{title='Call', startEpochMillis=1762005600000, endEpochMillis=1762009200000}]
+2025-07-14 10:14:09.904 [main] DEBUG c.c.service.impl.CalendarServiceImpl - Attempting to add new event: Event{title='Meeting', startEpochMillis=1762005600000, endEpochMillis=1762009200000}
+2025-07-14 10:14:09.905 [main] INFO  c.c.service.impl.CalendarServiceImpl - Successfully added event: Event{title='Meeting', startEpochMillis=1762005600000, endEpochMillis=1762009200000}
+2025-07-14 10:18:09.658 [main] DEBUG c.c.service.impl.CalendarServiceImpl - Attempting to add new event: Event{title='Overlap', startEpochMillis=1762007400000, endEpochMillis=1762011000000}
+2025-07-14 10:18:09.659 [main] INFO  c.c.service.impl.CalendarServiceImpl - Conflict detected [newEvent=Event{title='Overlap', startEpochMillis=1762007400000, endEpochMillis=1762011000000} existingEvent=Event{title='Call', startEpochMillis=1762005600000, endEpochMillis=1762009200000}]
+2025-07-14 10:18:09.660 [main] DEBUG c.c.service.impl.CalendarServiceImpl - Attempting to add new event: Event{title='Meeting', startEpochMillis=1762005600000, endEpochMillis=1762009200000}
+2025-07-14 10:18:09.661 [main] INFO  c.c.service.impl.CalendarServiceImpl - Successfully added event: Event{title='Meeting', startEpochMillis=1762005600000, endEpochMillis=1762009200000}
+2025-07-14 10:35:35.814 [main] DEBUG c.c.service.impl.CalendarServiceImpl - Attempting to add new event: Event{title='Overlap', startEpochMillis=1762007400000, endEpochMillis=1762011000000}
+2025-07-14 10:35:35.816 [main] INFO  c.c.service.impl.CalendarServiceImpl - Conflict detected [newEvent=Event{title='Overlap', startEpochMillis=1762007400000, endEpochMillis=1762011000000} existingEvent=Event{title='Call', startEpochMillis=1762005600000, endEpochMillis=1762009200000}]
+2025-07-14 10:35:35.817 [main] DEBUG c.c.service.impl.CalendarServiceImpl - Attempting to add new event: Event{title='Meeting', startEpochMillis=1762005600000, endEpochMillis=1762009200000}
+2025-07-14 10:35:35.818 [main] INFO  c.c.service.impl.CalendarServiceImpl - Successfully added event: Event{title='Meeting', startEpochMillis=1762005600000, endEpochMillis=1762009200000}
+2025-07-14 10:44:55.319 [main] DEBUG c.c.service.impl.CalendarServiceImpl - Attempting to add new event: Event{title='Overlap', startEpochMillis=1762007400000, endEpochMillis=1762011000000}
+2025-07-14 10:44:55.320 [main] INFO  c.c.service.impl.CalendarServiceImpl - Conflict detected [newEvent=Event{title='Overlap', startEpochMillis=1762007400000, endEpochMillis=1762011000000} existingEvent=Event{title='Call', startEpochMillis=1762005600000, endEpochMillis=1762009200000}]
+2025-07-14 10:44:55.321 [main] DEBUG c.c.service.impl.CalendarServiceImpl - Attempting to add new event: Event{title='Meeting', startEpochMillis=1762005600000, endEpochMillis=1762009200000}
+2025-07-14 10:44:55.322 [main] INFO  c.c.service.impl.CalendarServiceImpl - Successfully added event: Event{title='Meeting', startEpochMillis=1762005600000, endEpochMillis=1762009200000}
+2025-07-14 11:00:44.107 [main] DEBUG c.c.service.impl.CalendarServiceImpl - Attempting to add new event: Event{title='Overlap', startEpochMillis=1762007400000, endEpochMillis=1762011000000}
+2025-07-14 11:00:44.108 [main] INFO  c.c.service.impl.CalendarServiceImpl - Conflict detected [newEvent=Event{title='Overlap', startEpochMillis=1762007400000, endEpochMillis=1762011000000} existingEvent=Event{title='Call', startEpochMillis=1762005600000, endEpochMillis=1762009200000}]
+2025-07-14 11:00:44.110 [main] DEBUG c.c.service.impl.CalendarServiceImpl - Attempting to add new event: Event{title='Meeting', startEpochMillis=1762005600000, endEpochMillis=1762009200000}
+2025-07-14 11:00:44.110 [main] INFO  c.c.service.impl.CalendarServiceImpl - Successfully added event: Event{title='Meeting', startEpochMillis=1762005600000, endEpochMillis=1762009200000}
+2025-07-14 11:02:44.944 [main] INFO  com.calendar.CalendarApp - Starting application...
+2025-07-14 11:02:44.949 [main] INFO  com.calendar.CalendarApp - Starting HTTP server on port 7000
+2025-07-14 11:02:45.139 [main] INFO  io.javalin.Javalin - 
+       __                      __ _            __ __
+      / /____ _ _   __ ____ _ / /(_)____      / // /
+ __  / // __ `/| | / // __ `// // // __ \    / // /_
+/ /_/ // /_/ / | |/ // /_/ // // // / / /   /__  __/
+\____/ \__,_/  |___/ \__,_//_//_//_/ /_/      /_/
+
+          https://javalin.io/documentation
+
+2025-07-14 11:02:45.151 [main] INFO  org.eclipse.jetty.util.log - Logging initialized @684ms to org.eclipse.jetty.util.log.Slf4jLog
+2025-07-14 11:02:45.158 [main] INFO  io.javalin.Javalin - Starting Javalin ...
+2025-07-14 11:02:45.186 [main] INFO  io.javalin.Javalin - You are running Javalin 4.6.7 (released October 24, 2022. Your Javalin version is 994 days old. Consider checking for a newer version.).
+2025-07-14 11:02:45.434 [main] ERROR io.javalin.Javalin - Failed to start Javalin
+2025-07-14 11:02:45.435 [main] INFO  io.javalin.Javalin - Stopping Javalin ...
+2025-07-14 11:02:45.441 [main] INFO  io.javalin.Javalin - Javalin has stopped
+2025-07-14 11:02:45.443 [main] ERROR com.calendar.CalendarApp - Error starting HTTP server. 
+io.javalin.core.util.JavalinBindException: Port already in use. Make sure no other process is using port 7000 and try again.
+	at io.javalin.Javalin.start(Javalin.java:184)
+	at io.javalin.Javalin.start(Javalin.java:148)
+	at com.calendar.CalendarApp.startRestServer(CalendarApp.java:38)
+	at com.calendar.CalendarApp.main(CalendarApp.java:30)
+Caused by: java.io.IOException: Failed to bind to 0.0.0.0/0.0.0.0:7000
+	at org.eclipse.jetty.server.ServerConnector.openAcceptChannel(ServerConnector.java:349)
+	at org.eclipse.jetty.server.ServerConnector.open(ServerConnector.java:310)
+	at org.eclipse.jetty.server.AbstractNetworkConnector.doStart(AbstractNetworkConnector.java:80)
+	at org.eclipse.jetty.server.ServerConnector.doStart(ServerConnector.java:234)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:73)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:401)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:73)
+	at io.javalin.jetty.JettyServer.start(JettyServer.kt:65)
+	at io.javalin.Javalin.start(Javalin.java:174)
+	... 3 common frames omitted
+Caused by: java.net.BindException: Address already in use
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:461)
+	at sun.nio.ch.Net.bind(Net.java:453)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:222)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:85)
+	at org.eclipse.jetty.server.ServerConnector.openAcceptChannel(ServerConnector.java:344)
+	... 11 common frames omitted
+2025-07-14 11:03:18.727 [main] INFO  com.calendar.CalendarApp - Starting application...
+2025-07-14 11:03:18.734 [main] INFO  com.calendar.CalendarApp - Starting HTTP server on port 8000
+2025-07-14 11:03:18.914 [main] INFO  io.javalin.Javalin - 
+       __                      __ _            __ __
+      / /____ _ _   __ ____ _ / /(_)____      / // /
+ __  / // __ `/| | / // __ `// // // __ \    / // /_
+/ /_/ // /_/ / | |/ // /_/ // // // / / /   /__  __/
+\____/ \__,_/  |___/ \__,_//_//_//_/ /_/      /_/
+
+          https://javalin.io/documentation
+
+2025-07-14 11:03:18.926 [main] INFO  org.eclipse.jetty.util.log - Logging initialized @654ms to org.eclipse.jetty.util.log.Slf4jLog
+2025-07-14 11:03:18.934 [main] INFO  io.javalin.Javalin - Starting Javalin ...
+2025-07-14 11:03:18.962 [main] INFO  io.javalin.Javalin - You are running Javalin 4.6.7 (released October 24, 2022. Your Javalin version is 994 days old. Consider checking for a newer version.).
+2025-07-14 11:03:19.215 [main] INFO  io.javalin.Javalin - Listening on http://localhost:8000/
+2025-07-14 11:03:19.215 [main] INFO  io.javalin.Javalin - Javalin started in 288ms \o/
+2025-07-14 11:07:35.507 [main] DEBUG c.c.service.impl.CalendarServiceImpl - Attempting to add new event: Event{title='Overlap', startEpochMillis=1762007400000, endEpochMillis=1762011000000}
+2025-07-14 11:07:35.508 [main] INFO  c.c.service.impl.CalendarServiceImpl - Conflict detected [newEvent=Event{title='Overlap', startEpochMillis=1762007400000, endEpochMillis=1762011000000} existingEvent=Event{title='Call', startEpochMillis=1762005600000, endEpochMillis=1762009200000}]
+2025-07-14 11:07:35.509 [main] DEBUG c.c.service.impl.CalendarServiceImpl - Attempting to add new event: Event{title='Meeting', startEpochMillis=1762005600000, endEpochMillis=1762009200000}
+2025-07-14 11:07:35.510 [main] INFO  c.c.service.impl.CalendarServiceImpl - Successfully added event: Event{title='Meeting', startEpochMillis=1762005600000, endEpochMillis=1762009200000}
+2025-07-14 11:07:49.605 [main] INFO  com.calendar.CalendarApp - Starting application...
+2025-07-14 11:07:49.607 [main] INFO  com.calendar.CalendarApp - Starting HTTP server on port 8000
+2025-07-14 11:07:49.639 [main] INFO  io.javalin.Javalin - 
+       __                      __ _            __ __
+      / /____ _ _   __ ____ _ / /(_)____      / // /
+ __  / // __ `/| | / // __ `// // // __ \    / // /_
+/ /_/ // /_/ / | |/ // /_/ // // // / / /   /__  __/
+\____/ \__,_/  |___/ \__,_//_//_//_/ /_/      /_/
+
+          https://javalin.io/documentation
+
+2025-07-14 11:07:49.679 [main] INFO  org.eclipse.jetty.util.log - Logging initialized @310ms to org.eclipse.jetty.util.log.Slf4jLog
+2025-07-14 11:07:49.680 [main] INFO  io.javalin.Javalin - Starting Javalin ...
+2025-07-14 11:07:49.690 [main] INFO  io.javalin.Javalin - You are running Javalin 4.6.7 (released October 24, 2022. Your Javalin version is 994 days old. Consider checking for a newer version.).
+2025-07-14 11:07:49.718 [main] INFO  io.javalin.Javalin - Loom is available, using Virtual ThreadPool... Neat!
+2025-07-14 11:07:49.833 [main] INFO  io.javalin.Javalin - Listening on http://localhost:8000/
+2025-07-14 11:07:49.833 [main] INFO  io.javalin.Javalin - Javalin started in 153ms \o/
+2025-07-14 11:10:05.776 [main] INFO  com.calendar.CalendarApp - Starting application...
+2025-07-14 11:10:05.778 [main] INFO  com.calendar.CalendarApp - Starting HTTP server on port 8000
+2025-07-14 11:10:05.806 [main] INFO  io.javalin.Javalin - 
+       __                      __ _            __ __
+      / /____ _ _   __ ____ _ / /(_)____      / // /
+ __  / // __ `/| | / // __ `// // // __ \    / // /_
+/ /_/ // /_/ / | |/ // /_/ // // // / / /   /__  __/
+\____/ \__,_/  |___/ \__,_//_//_//_/ /_/      /_/
+
+          https://javalin.io/documentation
+
+2025-07-14 11:10:05.816 [main] INFO  org.eclipse.jetty.util.log - Logging initialized @187ms to org.eclipse.jetty.util.log.Slf4jLog
+2025-07-14 11:10:05.817 [main] INFO  io.javalin.Javalin - Starting Javalin ...
+2025-07-14 11:10:05.825 [main] INFO  io.javalin.Javalin - You are running Javalin 4.6.7 (released October 24, 2022. Your Javalin version is 994 days old. Consider checking for a newer version.).
+2025-07-14 11:10:05.849 [main] INFO  io.javalin.Javalin - Loom is available, using Virtual ThreadPool... Neat!
+2025-07-14 11:10:05.924 [main] INFO  io.javalin.Javalin - Listening on http://localhost:8000/
+2025-07-14 11:10:05.924 [main] INFO  io.javalin.Javalin - Javalin started in 107ms \o/
+2025-07-14 11:21:16.553 [main] DEBUG c.c.service.impl.CalendarServiceImpl - Attempting to add new event: Event{title='Overlap', startEpochMillis=1762007400000, endEpochMillis=1762011000000}
+2025-07-14 11:21:16.555 [main] INFO  c.c.service.impl.CalendarServiceImpl - Conflict detected [newEvent=Event{title='Overlap', startEpochMillis=1762007400000, endEpochMillis=1762011000000} existingEvent=Event{title='Call', startEpochMillis=1762005600000, endEpochMillis=1762009200000}]
+2025-07-14 11:21:16.556 [main] DEBUG c.c.service.impl.CalendarServiceImpl - Attempting to add new event: Event{title='Meeting', startEpochMillis=1762005600000, endEpochMillis=1762009200000}
+2025-07-14 11:21:16.557 [main] INFO  c.c.service.impl.CalendarServiceImpl - Successfully added event: Event{title='Meeting', startEpochMillis=1762005600000, endEpochMillis=1762009200000}
+2025-07-14 11:21:22.955 [main] INFO  com.calendar.CalendarApp - Starting application...
+2025-07-14 11:21:22.957 [main] INFO  com.calendar.CalendarApp - Starting HTTP server on port 8000
+2025-07-14 11:21:22.987 [main] INFO  io.javalin.Javalin - 
+       __                      __ _            __ __
+      / /____ _ _   __ ____ _ / /(_)____      / // /
+ __  / // __ `/| | / // __ `// // // __ \    / // /_
+/ /_/ // /_/ / | |/ // /_/ // // // / / /   /__  __/
+\____/ \__,_/  |___/ \__,_//_//_//_/ /_/      /_/
+
+          https://javalin.io/documentation
+
+2025-07-14 11:21:23.001 [main] INFO  org.eclipse.jetty.util.log - Logging initialized @256ms to org.eclipse.jetty.util.log.Slf4jLog
+2025-07-14 11:21:23.001 [main] INFO  io.javalin.Javalin - Starting Javalin ...
+2025-07-14 11:21:23.011 [main] INFO  io.javalin.Javalin - You are running Javalin 4.6.7 (released October 24, 2022. Your Javalin version is 994 days old. Consider checking for a newer version.).
+2025-07-14 11:21:23.038 [main] INFO  io.javalin.Javalin - Loom is available, using Virtual ThreadPool... Neat!
+2025-07-14 11:21:23.129 [main] INFO  io.javalin.Javalin - Listening on http://localhost:8000/
+2025-07-14 11:21:23.130 [main] INFO  io.javalin.Javalin - Javalin started in 129ms \o/
+2025-07-14 11:23:54.992 [JettyServerThreadPool-Virtual-10] DEBUG c.c.service.impl.CalendarServiceImpl - Attempting to add new event: Event{title='Event1', startEpochMillis=1752516000000, endEpochMillis=1752517800000}
+2025-07-14 11:23:55.005 [JettyServerThreadPool-Virtual-10] INFO  c.c.service.impl.CalendarServiceImpl - Successfully added event: Event{title='Event1', startEpochMillis=1752516000000, endEpochMillis=1752517800000}
+2025-07-14 11:24:37.024 [JettyServerThreadPool-Virtual-13] DEBUG c.c.service.impl.CalendarServiceImpl - Attempting to add new event: Event{title='Event2', startEpochMillis=1752516900000, endEpochMillis=1752517800000}
+2025-07-14 11:24:37.025 [JettyServerThreadPool-Virtual-13] INFO  c.c.service.impl.CalendarServiceImpl - Conflict detected [newEvent=Event{title='Event2', startEpochMillis=1752516900000, endEpochMillis=1752517800000} existingEvent=Event{title='Event1', startEpochMillis=1752516000000, endEpochMillis=1752517800000}]
+2025-07-14 11:24:37.030 [JettyServerThreadPool-Virtual-13] ERROR c.c.api.ExceptionHandlerConfig - Error occurred. 
+com.calendar.exception.EventConflictException: Event conflicts with an existing event - Event1
+	at com.calendar.service.impl.CalendarServiceImpl.addEvent(CalendarServiceImpl.java:147)
+	at com.calendar.api.EventController.lambda$new$0(EventController.java:61)
+	at io.javalin.core.security.SecurityUtil.noopAccessManager(SecurityUtil.kt:20)
+	at io.javalin.http.JavalinServlet.addHandler$lambda-0(JavalinServlet.kt:96)
+	at io.javalin.http.JavalinServlet$lifecycle$2$1$1.invoke(JavalinServlet.kt:43)
+	at io.javalin.http.JavalinServlet$lifecycle$2$1$1.invoke(JavalinServlet.kt:43)
+	at io.javalin.http.JavalinServletHandler.executeNextTask(JavalinServletHandler.kt:99)
+	at io.javalin.http.JavalinServletHandler.queueNextTaskOrFinish$lambda-1(JavalinServletHandler.kt:85)
+	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
+	at java.base/java.util.concurrent.CompletableFuture.thenCompose(CompletableFuture.java:2341)
+	at io.javalin.http.JavalinServletHandler.queueNextTaskOrFinish$javalin(JavalinServletHandler.kt:85)
+	at io.javalin.http.JavalinServletHandler.executeNextTask$lambda-11$lambda-10(JavalinServletHandler.kt:119)
+	at java.base/java.util.concurrent.CompletableFuture.uniApplyNow(CompletableFuture.java:684)
+	at java.base/java.util.concurrent.CompletableFuture.uniApplyStage(CompletableFuture.java:662)
+	at java.base/java.util.concurrent.CompletableFuture.thenApply(CompletableFuture.java:2200)
+	at io.javalin.http.JavalinServletHandler.executeNextTask(JavalinServletHandler.kt:119)
+	at io.javalin.http.JavalinServletHandler.queueNextTaskOrFinish$lambda-1(JavalinServletHandler.kt:85)
+	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
+	at java.base/java.util.concurrent.CompletableFuture.thenCompose(CompletableFuture.java:2341)
+	at io.javalin.http.JavalinServletHandler.queueNextTaskOrFinish$javalin(JavalinServletHandler.kt:85)
+	at io.javalin.http.JavalinServlet.service(JavalinServlet.kt:89)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at io.javalin.jetty.JavalinJettyServlet.service(JavalinJettyServlet.kt:58)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:799)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:554)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:233)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1624)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:233)
+	at io.javalin.jetty.JettyServer$start$wsAndHttpHandler$1.doHandle(JettyServer.kt:52)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:188)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:505)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1594)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:186)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1355)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.StatisticsHandler.handle(StatisticsHandler.java:181)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)
+	at org.eclipse.jetty.server.Server.handle(Server.java:516)
+	at org.eclipse.jetty.server.HttpChannel.lambda$handle$1(HttpChannel.java:487)
+	at org.eclipse.jetty.server.HttpChannel.dispatch(HttpChannel.java:732)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:479)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:277)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:311)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:105)
+	at org.eclipse.jetty.io.ChannelEndPoint$1.run(ChannelEndPoint.java:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.lang.VirtualThread.run(VirtualThread.java:329)
+2025-07-14 11:24:57.537 [JettyServerThreadPool-Virtual-15] DEBUG c.c.service.impl.CalendarServiceImpl - Attempting to add new event: Event{title='Event2', startEpochMillis=1752603300000, endEpochMillis=1752604200000}
+2025-07-14 11:24:57.539 [JettyServerThreadPool-Virtual-15] INFO  c.c.service.impl.CalendarServiceImpl - Successfully added event: Event{title='Event2', startEpochMillis=1752603300000, endEpochMillis=1752604200000}
+2025-07-14 11:25:24.889 [JettyServerThreadPool-Virtual-18] DEBUG c.c.service.impl.CalendarServiceImpl - Attempting to add new event: Event{title='Event2', startEpochMillis=1752514200000, endEpochMillis=1752521400000}
+2025-07-14 11:25:24.892 [JettyServerThreadPool-Virtual-18] INFO  c.c.service.impl.CalendarServiceImpl - Conflict detected [newEvent=Event{title='Event2', startEpochMillis=1752514200000, endEpochMillis=1752521400000} existingEvent=Event{title='Event1', startEpochMillis=1752516000000, endEpochMillis=1752517800000}]
+2025-07-14 11:25:24.895 [JettyServerThreadPool-Virtual-18] ERROR c.c.api.ExceptionHandlerConfig - Error occurred. 
+com.calendar.exception.EventConflictException: Event conflicts with an existing event - Event1
+	at com.calendar.service.impl.CalendarServiceImpl.addEvent(CalendarServiceImpl.java:147)
+	at com.calendar.api.EventController.lambda$new$0(EventController.java:61)
+	at io.javalin.core.security.SecurityUtil.noopAccessManager(SecurityUtil.kt:20)
+	at io.javalin.http.JavalinServlet.addHandler$lambda-0(JavalinServlet.kt:96)
+	at io.javalin.http.JavalinServlet$lifecycle$2$1$1.invoke(JavalinServlet.kt:43)
+	at io.javalin.http.JavalinServlet$lifecycle$2$1$1.invoke(JavalinServlet.kt:43)
+	at io.javalin.http.JavalinServletHandler.executeNextTask(JavalinServletHandler.kt:99)
+	at io.javalin.http.JavalinServletHandler.queueNextTaskOrFinish$lambda-1(JavalinServletHandler.kt:85)
+	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
+	at java.base/java.util.concurrent.CompletableFuture.thenCompose(CompletableFuture.java:2341)
+	at io.javalin.http.JavalinServletHandler.queueNextTaskOrFinish$javalin(JavalinServletHandler.kt:85)
+	at io.javalin.http.JavalinServletHandler.executeNextTask$lambda-11$lambda-10(JavalinServletHandler.kt:119)
+	at java.base/java.util.concurrent.CompletableFuture.uniApplyNow(CompletableFuture.java:684)
+	at java.base/java.util.concurrent.CompletableFuture.uniApplyStage(CompletableFuture.java:662)
+	at java.base/java.util.concurrent.CompletableFuture.thenApply(CompletableFuture.java:2200)
+	at io.javalin.http.JavalinServletHandler.executeNextTask(JavalinServletHandler.kt:119)
+	at io.javalin.http.JavalinServletHandler.queueNextTaskOrFinish$lambda-1(JavalinServletHandler.kt:85)
+	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
+	at java.base/java.util.concurrent.CompletableFuture.thenCompose(CompletableFuture.java:2341)
+	at io.javalin.http.JavalinServletHandler.queueNextTaskOrFinish$javalin(JavalinServletHandler.kt:85)
+	at io.javalin.http.JavalinServlet.service(JavalinServlet.kt:89)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at io.javalin.jetty.JavalinJettyServlet.service(JavalinJettyServlet.kt:58)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:799)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:554)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:233)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1624)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:233)
+	at io.javalin.jetty.JettyServer$start$wsAndHttpHandler$1.doHandle(JettyServer.kt:52)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:188)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:505)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1594)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:186)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1355)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.StatisticsHandler.handle(StatisticsHandler.java:181)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)
+	at org.eclipse.jetty.server.Server.handle(Server.java:516)
+	at org.eclipse.jetty.server.HttpChannel.lambda$handle$1(HttpChannel.java:487)
+	at org.eclipse.jetty.server.HttpChannel.dispatch(HttpChannel.java:732)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:479)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:277)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:311)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:105)
+	at org.eclipse.jetty.io.ChannelEndPoint$1.run(ChannelEndPoint.java:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.lang.VirtualThread.run(VirtualThread.java:329)
+2025-07-14 11:25:35.954 [JettyServerThreadPool-Virtual-20] DEBUG c.c.service.impl.CalendarServiceImpl - Attempting to add new event: Event{title='Event2', startEpochMillis=1752514200000, endEpochMillis=1752557400000}
+2025-07-14 11:25:35.955 [JettyServerThreadPool-Virtual-20] INFO  c.c.service.impl.CalendarServiceImpl - Conflict detected [newEvent=Event{title='Event2', startEpochMillis=1752514200000, endEpochMillis=1752557400000} existingEvent=Event{title='Event1', startEpochMillis=1752516000000, endEpochMillis=1752517800000}]
+2025-07-14 11:25:35.956 [JettyServerThreadPool-Virtual-20] ERROR c.c.api.ExceptionHandlerConfig - Error occurred. 
+com.calendar.exception.EventConflictException: Event conflicts with an existing event - Event1
+	at com.calendar.service.impl.CalendarServiceImpl.addEvent(CalendarServiceImpl.java:147)
+	at com.calendar.api.EventController.lambda$new$0(EventController.java:61)
+	at io.javalin.core.security.SecurityUtil.noopAccessManager(SecurityUtil.kt:20)
+	at io.javalin.http.JavalinServlet.addHandler$lambda-0(JavalinServlet.kt:96)
+	at io.javalin.http.JavalinServlet$lifecycle$2$1$1.invoke(JavalinServlet.kt:43)
+	at io.javalin.http.JavalinServlet$lifecycle$2$1$1.invoke(JavalinServlet.kt:43)
+	at io.javalin.http.JavalinServletHandler.executeNextTask(JavalinServletHandler.kt:99)
+	at io.javalin.http.JavalinServletHandler.queueNextTaskOrFinish$lambda-1(JavalinServletHandler.kt:85)
+	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
+	at java.base/java.util.concurrent.CompletableFuture.thenCompose(CompletableFuture.java:2341)
+	at io.javalin.http.JavalinServletHandler.queueNextTaskOrFinish$javalin(JavalinServletHandler.kt:85)
+	at io.javalin.http.JavalinServletHandler.executeNextTask$lambda-11$lambda-10(JavalinServletHandler.kt:119)
+	at java.base/java.util.concurrent.CompletableFuture.uniApplyNow(CompletableFuture.java:684)
+	at java.base/java.util.concurrent.CompletableFuture.uniApplyStage(CompletableFuture.java:662)
+	at java.base/java.util.concurrent.CompletableFuture.thenApply(CompletableFuture.java:2200)
+	at io.javalin.http.JavalinServletHandler.executeNextTask(JavalinServletHandler.kt:119)
+	at io.javalin.http.JavalinServletHandler.queueNextTaskOrFinish$lambda-1(JavalinServletHandler.kt:85)
+	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
+	at java.base/java.util.concurrent.CompletableFuture.thenCompose(CompletableFuture.java:2341)
+	at io.javalin.http.JavalinServletHandler.queueNextTaskOrFinish$javalin(JavalinServletHandler.kt:85)
+	at io.javalin.http.JavalinServlet.service(JavalinServlet.kt:89)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at io.javalin.jetty.JavalinJettyServlet.service(JavalinJettyServlet.kt:58)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:799)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:554)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:233)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1624)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:233)
+	at io.javalin.jetty.JettyServer$start$wsAndHttpHandler$1.doHandle(JettyServer.kt:52)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:188)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:505)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1594)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:186)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1355)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.StatisticsHandler.handle(StatisticsHandler.java:181)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)
+	at org.eclipse.jetty.server.Server.handle(Server.java:516)
+	at org.eclipse.jetty.server.HttpChannel.lambda$handle$1(HttpChannel.java:487)
+	at org.eclipse.jetty.server.HttpChannel.dispatch(HttpChannel.java:732)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:479)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:277)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:311)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:105)
+	at org.eclipse.jetty.io.ChannelEndPoint$1.run(ChannelEndPoint.java:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.lang.VirtualThread.run(VirtualThread.java:329)
+2025-07-14 11:25:47.960 [JettyServerThreadPool-Virtual-22] ERROR c.c.api.ExceptionHandlerConfig - Error occurred. 
+com.calendar.exception.ValidationException: End time must be after start time.
+	at com.calendar.util.EventFactory.validate(EventFactory.java:85)
+	at com.calendar.util.EventFactory.fromValues(EventFactory.java:38)
+	at com.calendar.util.EventFactory.fromRequest(EventFactory.java:65)
+	at com.calendar.api.EventController.lambda$new$0(EventController.java:60)
+	at io.javalin.core.security.SecurityUtil.noopAccessManager(SecurityUtil.kt:20)
+	at io.javalin.http.JavalinServlet.addHandler$lambda-0(JavalinServlet.kt:96)
+	at io.javalin.http.JavalinServlet$lifecycle$2$1$1.invoke(JavalinServlet.kt:43)
+	at io.javalin.http.JavalinServlet$lifecycle$2$1$1.invoke(JavalinServlet.kt:43)
+	at io.javalin.http.JavalinServletHandler.executeNextTask(JavalinServletHandler.kt:99)
+	at io.javalin.http.JavalinServletHandler.queueNextTaskOrFinish$lambda-1(JavalinServletHandler.kt:85)
+	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
+	at java.base/java.util.concurrent.CompletableFuture.thenCompose(CompletableFuture.java:2341)
+	at io.javalin.http.JavalinServletHandler.queueNextTaskOrFinish$javalin(JavalinServletHandler.kt:85)
+	at io.javalin.http.JavalinServletHandler.executeNextTask$lambda-11$lambda-10(JavalinServletHandler.kt:119)
+	at java.base/java.util.concurrent.CompletableFuture.uniApplyNow(CompletableFuture.java:684)
+	at java.base/java.util.concurrent.CompletableFuture.uniApplyStage(CompletableFuture.java:662)
+	at java.base/java.util.concurrent.CompletableFuture.thenApply(CompletableFuture.java:2200)
+	at io.javalin.http.JavalinServletHandler.executeNextTask(JavalinServletHandler.kt:119)
+	at io.javalin.http.JavalinServletHandler.queueNextTaskOrFinish$lambda-1(JavalinServletHandler.kt:85)
+	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
+	at java.base/java.util.concurrent.CompletableFuture.thenCompose(CompletableFuture.java:2341)
+	at io.javalin.http.JavalinServletHandler.queueNextTaskOrFinish$javalin(JavalinServletHandler.kt:85)
+	at io.javalin.http.JavalinServlet.service(JavalinServlet.kt:89)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at io.javalin.jetty.JavalinJettyServlet.service(JavalinJettyServlet.kt:58)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:799)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:554)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:233)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1624)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:233)
+	at io.javalin.jetty.JettyServer$start$wsAndHttpHandler$1.doHandle(JettyServer.kt:52)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:188)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:505)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1594)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:186)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1355)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.StatisticsHandler.handle(StatisticsHandler.java:181)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)
+	at org.eclipse.jetty.server.Server.handle(Server.java:516)
+	at org.eclipse.jetty.server.HttpChannel.lambda$handle$1(HttpChannel.java:487)
+	at org.eclipse.jetty.server.HttpChannel.dispatch(HttpChannel.java:732)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:479)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:277)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:311)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:105)
+	at org.eclipse.jetty.io.ChannelEndPoint$1.run(ChannelEndPoint.java:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.lang.VirtualThread.run(VirtualThread.java:329)
+2025-07-14 11:25:55.527 [JettyServerThreadPool-Virtual-24] DEBUG c.c.service.impl.CalendarServiceImpl - Attempting to add new event: Event{title='Event2', startEpochMillis=1752514200000, endEpochMillis=1752514260000}
+2025-07-14 11:25:55.532 [JettyServerThreadPool-Virtual-24] INFO  c.c.service.impl.CalendarServiceImpl - Successfully added event: Event{title='Event2', startEpochMillis=1752514200000, endEpochMillis=1752514260000}
+2025-07-14 11:33:27.561 [main] INFO  com.calendar.CalendarApp - Starting application...
+2025-07-14 11:33:27.563 [main] INFO  com.calendar.CalendarApp - Running in CLI mode
+2025-07-14 11:36:22.627 [main] DEBUG c.c.service.impl.CalendarServiceImpl - Attempting to add new event: Event{title='Manual1', startEpochMillis=1752530400000, endEpochMillis=1752532200000}
+2025-07-14 11:36:22.649 [main] INFO  c.c.service.impl.CalendarServiceImpl - Successfully added event: Event{title='Manual1', startEpochMillis=1752530400000, endEpochMillis=1752532200000}
+2025-07-14 12:11:40.035 [main] DEBUG c.c.service.impl.CalendarServiceImpl - Attempting to add new event: Event{title='Overlap', startEpochMillis=1762007400000, endEpochMillis=1762011000000}
+2025-07-14 12:11:40.036 [main] INFO  c.c.service.impl.CalendarServiceImpl - Conflict detected [newEvent=Event{title='Overlap', startEpochMillis=1762007400000, endEpochMillis=1762011000000} existingEvent=Event{title='Call', startEpochMillis=1762005600000, endEpochMillis=1762009200000}]
+2025-07-14 12:11:40.037 [main] DEBUG c.c.service.impl.CalendarServiceImpl - Attempting to add new event: Event{title='Meeting', startEpochMillis=1762005600000, endEpochMillis=1762009200000}
+2025-07-14 12:11:40.038 [main] INFO  c.c.service.impl.CalendarServiceImpl - Successfully added event: Event{title='Meeting', startEpochMillis=1762005600000, endEpochMillis=1762009200000}
+2025-07-14 12:11:50.474 [main] INFO  com.calendar.CalendarApp - Starting application...
+2025-07-14 12:11:50.476 [main] INFO  com.calendar.CalendarApp - Starting HTTP server on port 8000
+2025-07-14 12:11:50.512 [main] INFO  io.javalin.Javalin - 
+       __                      __ _            __ __
+      / /____ _ _   __ ____ _ / /(_)____      / // /
+ __  / // __ `/| | / // __ `// // // __ \    / // /_
+/ /_/ // /_/ / | |/ // /_/ // // // / / /   /__  __/
+\____/ \__,_/  |___/ \__,_//_//_//_/ /_/      /_/
+
+          https://javalin.io/documentation
+
+2025-07-14 12:11:50.526 [main] INFO  org.eclipse.jetty.util.log - Logging initialized @265ms to org.eclipse.jetty.util.log.Slf4jLog
+2025-07-14 12:11:50.527 [main] INFO  io.javalin.Javalin - Starting Javalin ...
+2025-07-14 12:11:50.537 [main] INFO  io.javalin.Javalin - You are running Javalin 4.6.7 (released October 24, 2022. Your Javalin version is 994 days old. Consider checking for a newer version.).
+2025-07-14 12:11:50.562 [main] INFO  io.javalin.Javalin - Loom is available, using Virtual ThreadPool... Neat!
+2025-07-14 12:11:50.654 [main] INFO  io.javalin.Javalin - Listening on http://localhost:8000/
+2025-07-14 12:11:50.654 [main] INFO  io.javalin.Javalin - Javalin started in 128ms \o/
+2025-07-14 12:12:17.661 [JettyServerThreadPool-Virtual-7] DEBUG c.c.service.impl.CalendarServiceImpl - Attempting to add new event: Event{title='Event3', startEpochMillis=1752526800000, endEpochMillis=1752530400000}
+2025-07-14 12:12:17.678 [JettyServerThreadPool-Virtual-7] INFO  c.c.service.impl.CalendarServiceImpl - Successfully added event: Event{title='Event3', startEpochMillis=1752526800000, endEpochMillis=1752530400000}
+2025-07-14 12:29:38.098 [main] INFO  com.calendar.CalendarApp - Starting application...
+2025-07-14 12:29:38.099 [main] INFO  com.calendar.CalendarApp - Running in CLI mode
+2025-07-14 12:29:50.541 [main] DEBUG c.c.service.impl.CalendarServiceImpl - Attempting to add new event: Event{title='Overlap', startEpochMillis=1762007400000, endEpochMillis=1762011000000}
+2025-07-14 12:29:50.542 [main] INFO  c.c.service.impl.CalendarServiceImpl - Conflict detected [newEvent=Event{title='Overlap', startEpochMillis=1762007400000, endEpochMillis=1762011000000} existingEvent=Event{title='Call', startEpochMillis=1762005600000, endEpochMillis=1762009200000}]
+2025-07-14 12:29:50.543 [main] DEBUG c.c.service.impl.CalendarServiceImpl - Attempting to add new event: Event{title='Meeting', startEpochMillis=1762005600000, endEpochMillis=1762009200000}
+2025-07-14 12:29:50.544 [main] INFO  c.c.service.impl.CalendarServiceImpl - Successfully added event: Event{title='Meeting', startEpochMillis=1762005600000, endEpochMillis=1762009200000}
+2025-07-14 12:29:56.057 [main] INFO  com.calendar.CalendarApp - Starting application...
+2025-07-14 12:29:56.059 [main] INFO  com.calendar.CalendarApp - Running in CLI mode
+2025-07-14 12:43:29.959 [main] DEBUG c.c.service.impl.CalendarServiceImpl - Attempting to add new event: Event{title='Overlap', startEpochMillis=1762007400000, endEpochMillis=1762011000000}
+2025-07-14 12:43:29.960 [main] INFO  c.c.service.impl.CalendarServiceImpl - Conflict detected [newEvent=Event{title='Overlap', startEpochMillis=1762007400000, endEpochMillis=1762011000000} existingEvent=Event{title='Call', startEpochMillis=1762005600000, endEpochMillis=1762009200000}]
+2025-07-14 12:43:29.961 [main] DEBUG c.c.service.impl.CalendarServiceImpl - Attempting to add new event: Event{title='Meeting', startEpochMillis=1762005600000, endEpochMillis=1762009200000}
+2025-07-14 12:43:29.962 [main] INFO  c.c.service.impl.CalendarServiceImpl - Successfully added event: Event{title='Meeting', startEpochMillis=1762005600000, endEpochMillis=1762009200000}
+2025-07-14 12:43:39.417 [main] INFO  com.calendar.CalendarApp - Starting application...
+2025-07-14 12:43:39.419 [main] INFO  com.calendar.CalendarApp - Starting HTTP server on port 8000
+2025-07-14 12:43:39.451 [main] INFO  io.javalin.Javalin - 
+       __                      __ _            __ __
+      / /____ _ _   __ ____ _ / /(_)____      / // /
+ __  / // __ `/| | / // __ `// // // __ \    / // /_
+/ /_/ // /_/ / | |/ // /_/ // // // / / /   /__  __/
+\____/ \__,_/  |___/ \__,_//_//_//_/ /_/      /_/
+
+          https://javalin.io/documentation
+
+2025-07-14 12:43:39.465 [main] INFO  org.eclipse.jetty.util.log - Logging initialized @269ms to org.eclipse.jetty.util.log.Slf4jLog
+2025-07-14 12:43:39.466 [main] INFO  io.javalin.Javalin - Starting Javalin ...
+2025-07-14 12:43:39.476 [main] INFO  io.javalin.Javalin - You are running Javalin 4.6.7 (released October 24, 2022. Your Javalin version is 994 days old. Consider checking for a newer version.).
+2025-07-14 12:43:39.507 [main] INFO  io.javalin.Javalin - Loom is available, using Virtual ThreadPool... Neat!
+2025-07-14 12:43:39.596 [main] INFO  io.javalin.Javalin - Listening on http://localhost:8000/
+2025-07-14 12:43:39.596 [main] INFO  io.javalin.Javalin - Javalin started in 131ms \o/
+2025-07-14 12:48:18.777 [main] INFO  com.calendar.CalendarApp - Starting application...
+2025-07-14 12:48:18.779 [main] INFO  com.calendar.CalendarApp - Starting HTTP server on port 8000
+2025-07-14 12:48:18.810 [main] INFO  io.javalin.Javalin - 
+       __                      __ _            __ __
+      / /____ _ _   __ ____ _ / /(_)____      / // /
+ __  / // __ `/| | / // __ `// // // __ \    / // /_
+/ /_/ // /_/ / | |/ // /_/ // // // / / /   /__  __/
+\____/ \__,_/  |___/ \__,_//_//_//_/ /_/      /_/
+
+          https://javalin.io/documentation
+
+2025-07-14 12:48:18.824 [main] INFO  org.eclipse.jetty.util.log - Logging initialized @242ms to org.eclipse.jetty.util.log.Slf4jLog
+2025-07-14 12:48:18.825 [main] INFO  io.javalin.Javalin - Starting Javalin ...
+2025-07-14 12:48:18.834 [main] INFO  io.javalin.Javalin - You are running Javalin 4.6.7 (released October 24, 2022. Your Javalin version is 994 days old. Consider checking for a newer version.).
+2025-07-14 12:48:18.861 [main] INFO  io.javalin.Javalin - Loom is available, using Virtual ThreadPool... Neat!
+2025-07-14 12:48:18.946 [main] INFO  io.javalin.Javalin - Listening on http://localhost:8000/
+2025-07-14 12:48:18.946 [main] INFO  io.javalin.Javalin - Javalin started in 122ms \o/
+2025-07-14 13:23:51.630 [main] INFO  com.calendar.CalendarApp - Starting application...
+2025-07-14 13:23:51.632 [main] INFO  com.calendar.CalendarApp - Running in CLI mode
